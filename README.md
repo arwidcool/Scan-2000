@@ -77,12 +77,12 @@ All 10 channel H/L lines routed to a DB-25 female connector for use with custom 
 | Property | Value |
 |---|---|
 | Target Instrument | Keithley 2001 |
-| Relay | Omron G6SK-2-DC5V (x11) |
+| Relay | Omron G6SK-2-DC5V (x9 relay) + solid-state (x2) |
 | Output Connector | 2x 12-position screw terminals (5.08 mm) |
-| CH 1-4 Max Voltage | 110 VDC / 125 VAC rms / 1 A |
-| CH 5-10 Max Current | 50 mA (solid-state input per Keithley spec) |
+| CH 1-4, CH 6-9 Max Voltage | 110 VDC / 125 VAC rms / 1 A (relay input) |
+| CH 5 + CH 10 Max Current | 50 mA (solid-state input) |
 | Earth Isolation | 350 V peak |
-| Extra Protection | GDT transient suppressors + Solid-State Relay isolation |
+| Extra Protection | GDT transient suppressors on solid-state channels |
 
 ---
 
