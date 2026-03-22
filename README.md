@@ -28,7 +28,7 @@ Four variants are available covering different relay types, instruments, and con
 | Max Voltage | 200 VDC / 125 VAC |
 | Max Current | 1 A |
 | Measurement | Voltage & Resistance ONLY |
-| Earth Isolation | 220 V max |
+| Earth Isolation | 350 V peak |
 
 ---
 
@@ -42,7 +42,7 @@ Four variants are available covering different relay types, instruments, and con
 | Target Instrument | Keithley 2000 |
 | Relay | Panasonic TQ2-L2-5V (magnetic latching, x11) |
 | Output Connector | 2x 12-position screw terminals (5.08 mm) |
-| Max Voltage | 200 VDC / 125 VAC |
+| Max Voltage | 125 VDC / 125 VAC |
 | Max Current | 1 A |
 | Measurement | Voltage & Resistance ONLY |
 | Earth Isolation | 220 V max |
@@ -61,7 +61,7 @@ Uses Panasonic magnetic latching relays - hold state without continuous coil cur
 | Target Instrument | Keithley 2000 |
 | Relay | Panasonic TQ2-L2-5V (magnetic latching, x11) |
 | Output Connector | DB25 female + 3-pin screw terminal (OUT B) |
-| Max Voltage | 90 VDC |
+| Max Voltage | 90 VDC (PCB/connector limited) |
 | Measurement | Voltage & Resistance ONLY |
 | Special Use | Test fixture / DUT wiring via DB25 cable |
 
@@ -79,9 +79,9 @@ All 10 channel H/L lines routed to a DB-25 female connector for use with custom 
 | Target Instrument | Keithley 2001 |
 | Relay | Omron G6SK-2-DC5V (x11) |
 | Output Connector | 2x 12-position screw terminals (5.08 mm) |
-| CH 1-4 Max Voltage | 200 VDC / 125 VAC / 1 A |
-| CH 5-10 Max Current | 150 mA |
-| Earth Isolation | 220 V max |
+| CH 1-4 Max Voltage | 110 VDC / 125 VAC rms / 1 A |
+| CH 5-10 Max Current | 50 mA (solid-state input per Keithley spec) |
+| Earth Isolation | 350 V peak |
 | Extra Protection | GDT transient suppressors + Solid-State Relay isolation |
 
 ---
@@ -114,8 +114,10 @@ Each folder contains:
 
 ## Safety
 
-> **WARNING: MAX 200 VDC / 125 VAC / 1 A - VOLTAGE & RESISTANCE ONLY - 220 V TO EARTH MAXIMUM**
-> **DB25 variant: MAX 90 VDC**
+> **WARNING: Omron variants — MAX 200 VDC / 125 VAC / 1 A — 350 V PEAK TO EARTH MAXIMUM**
+> **Panasonic variants — MAX 125 VDC / 125 VAC / 1 A — 220 V TO EARTH MAXIMUM**
+> **DB25 variant — MAX 90 VDC — VOLTAGE & RESISTANCE ONLY**
+> **2001 Omron solid-state channels (CH5, CH10) — MAX 50 mA**
 
 - Power off the Keithley completely before inserting or removing the card.
 - Select the correct variant for your instrument (2000 vs. 2001).
