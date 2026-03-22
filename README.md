@@ -114,10 +114,10 @@ Each folder contains:
 
 ## Safety
 
-> **WARNING: Omron variants — MAX 200 VDC / 125 VAC / 1 A — 350 V PEAK TO EARTH MAXIMUM**
-> **Panasonic variants — MAX 125 VDC / 125 VAC / 1 A — 220 V TO EARTH MAXIMUM**
-> **DB25 variant — MAX 90 VDC — VOLTAGE & RESISTANCE ONLY**
-> **2001 Omron solid-state channels (CH5, CH10) — MAX 50 mA**
+> **WARNING: Omron variants - MAX 200 VDC / 125 VAC / 1 A - 350 V PEAK TO EARTH MAXIMUM**
+> **Panasonic variants - MAX 125 VDC / 125 VAC / 1 A - 220 V TO EARTH MAXIMUM**
+> **DB25 variant - MAX 90 VDC - VOLTAGE & RESISTANCE ONLY**
+> **2001 Omron solid-state channels (CH5, CH10) - MAX 50 mA**
 
 - Power off the Keithley completely before inserting or removing the card.
 - Select the correct variant for your instrument (2000 vs. 2001).
