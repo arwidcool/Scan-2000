@@ -43,7 +43,7 @@ There are **four variants** covering different relay types, target instruments, 
 | Folder | `2000 Omron/` |
 | Schematic | Created 2026-03-19 · Updated 2026-03-20 |
 | Target Instrument | Keithley 2000 |
-| Relay Type | Omron — **CA6V-2-D5V** (CH1–CH5 rows), **G6BK-2-D2V** (CH6–CH10 / OUT) |
+| Relay Type | Omron — **G6BK-2-D2V** (CH1–CH5 rows), **G6BK-2-D2V** (CH6–CH10 / OUT) |
 | Output Connector | 2× 12-position screw terminal blocks (5.08 mm pitch) |
 | Max Voltage | **200 VDC / 125 VAC** |
 | Max Current | **1 A** |
